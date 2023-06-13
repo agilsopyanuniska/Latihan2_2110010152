@@ -11,6 +11,8 @@ package universitas;
  */
 public class MahasiswaBeraksi {
     public static void main(String[] args) {
+        Mahasiswa agil = new Mahasiswa("2110010152","Sopyan Agil","TI");
         
+        agil.getDetail();
     }
 }

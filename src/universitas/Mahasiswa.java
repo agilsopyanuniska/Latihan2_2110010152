@@ -12,6 +12,9 @@ public class Mahasiswa {
         this.npm = npm;
         this.nama = nama;
         this.prodi = prodi;
+        System.out.println("NPM : " + npm );
+        System.out.println("Nama : " + nama );
+        System.out.println("prodi : " + prodi );
     }
 
     public String getNpm() {
